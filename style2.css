@@ -7,3 +7,42 @@
         font-family: monospace;
         padding-top: 20px;
     }
+    p{
+        font-family: monospace;
+    }
+    .button{
+        float: right;
+        background-color: #4756DFF2;
+        padding: auto;
+        margin-top: -40px;
+    }
+    * {
+        box-sizing: border-box;
+      }
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }  
+      
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      .pic1,.pic2,.pic3{
+        font-family: monospace;
+        font-size: 30px;
+        padding: 0.123875px;
+      }
+
+    .woman{
+      float: right; 
+      width: 400px;
+      height: 350px;
+      margin-top: -200px;
+    }
+    body{
+      overflow-x: hidden;
+    }
